@@ -5,7 +5,7 @@ class ListItem extends Component {
 		const { task, onRemove } = this.props;
 
 		return (
-			<div>
+			<div className='list__item'>
 				{task}
 				<button onClick={onRemove}>Remove</button>
 			</div>

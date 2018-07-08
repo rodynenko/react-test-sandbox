@@ -18,7 +18,7 @@ class TestForm extends Component {
 		const { handleSubmit } = this.props;
 
 		return (
-			<form onSubmit={handleSubmit(this.onFormSubmit)}>
+			<form className='task-form' onSubmit={handleSubmit(this.onFormSubmit)}>
 				<Field
 					name='task'
 					placeholder='Enter task'

@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import TestForm from './components/TestForm';
 import List from './components/List';
+import Example from './components/Example';
 
 class App extends Component {
   render() {
@@ -18,6 +19,10 @@ class App extends Component {
           <div className="App-intro">
             <TestForm />
             <List />
+          </div>
+          <div style={{ marginTop: '100px' }}>
+            <h3>Example component is under this header</h3>
+            <Example />
           </div>
         </div>
       </Provider>

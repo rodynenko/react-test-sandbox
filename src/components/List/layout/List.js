@@ -14,9 +14,8 @@ class List extends Component {
 
 		return (
 			<div className='list'>
-				{items.map(t => (
+				{Array.isArray(items) && items.map(t => (
 					<ListItem
-						className='list__item'
 						key={t.id}
 						onRemove={this.handleRemoveItem(t.id)}
 						{...t}
