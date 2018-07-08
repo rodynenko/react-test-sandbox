@@ -1,0 +1,20 @@
+.input-field {
+  font-size: 16px;
+}
+
+.input-field__error {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: red;
+  font-size: 10px;
+}
+
+.input-field_error {
+  border-color: red;
+}
+
+.input-field__wrap {
+  position: relative;
+  margin-bottom: 20px;
+}

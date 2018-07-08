@@ -1,0 +1,4 @@
+export const REMOVE_TASK = 'REMOVE_TASK';
+export const ADD_TASK = 'ADD_TASK';
+export const UPDATE_STATUS_TASK = 'UPDATE_STATUS_TASK';
+export const UPDATE_TEXT_TASK = 'UPDATE_TEXT_TASK';
