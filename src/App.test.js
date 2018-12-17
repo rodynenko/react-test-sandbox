@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 const task = faker.random.words(2);
 
 describe('Add Task form', () => {
-  it('Can add Task', async () => {
+  xit('Can add Task', async () => {
     let browser = await puppeteer.launch({
       headless: false,
       devtools: true,
