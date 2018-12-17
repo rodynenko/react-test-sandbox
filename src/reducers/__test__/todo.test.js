@@ -2,7 +2,7 @@ import todoReducer, { addTask, removeTask } from '../todo.js';
 
 describe('todos reducer', () => {
 	it('should add task', () => {
-		const text = "Hello";
+		const text = 'Hello';
 		const newState = todoReducer({ todos: [] }, addTask(text));
 
 		expect(newState.todos.length).toBe(1);
